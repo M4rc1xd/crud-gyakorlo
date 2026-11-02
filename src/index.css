@@ -1,0 +1,152 @@
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #172033;
+  background: #f5f7fb;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: radial-gradient(circle at 85% 0%, #fff1d8 0, transparent 30rem), #f5f7fb;
+}
+
+.app-navbar {
+  background: #172033;
+  box-shadow: 0 5px 20px rgb(23 32 51 / 18%);
+}
+
+.navbar-brand {
+  letter-spacing: .03em;
+}
+
+.brand-mark {
+  display: inline-grid;
+  width: 2rem;
+  height: 2rem;
+  margin-right: .25rem;
+  place-items: center;
+  color: #172033;
+  background: #f5a623;
+  border-radius: 50%;
+}
+
+.app-nav-link {
+  margin-left: .35rem;
+  padding: .6rem 1rem !important;
+  color: #bec7d8 !important;
+  border-radius: .6rem;
+}
+
+.app-nav-link:hover,
+.app-nav-link.active {
+  color: #172033 !important;
+  background: #f5a623;
+}
+
+.app-main {
+  max-width: 1050px;
+}
+
+.hero {
+  margin: .5rem 0 2rem;
+  padding: 3.5rem 3rem;
+  color: white;
+  background: linear-gradient(120deg, #172033, #2d4165);
+  border-radius: 1.25rem;
+  box-shadow: 0 1rem 2rem rgb(23 32 51 / 16%);
+}
+
+.hero h1 {
+  max-width: 620px;
+  margin: 0 0 .75rem;
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  font-weight: 800;
+  letter-spacing: -.05em;
+}
+
+.hero p:not(.eyebrow) {
+  margin: 0;
+  color: #d3dbea;
+  font-size: 1.1rem;
+}
+
+.eyebrow {
+  margin-bottom: .75rem;
+  color: #f5a623;
+  font-size: .75rem;
+  font-weight: 800;
+  letter-spacing: .16em;
+}
+
+.page-title {
+  margin-bottom: 1.75rem;
+  font-weight: 800;
+  letter-spacing: -.04em;
+}
+
+.section-title {
+  color: #172033;
+  font-weight: 750;
+}
+
+.app-card,
+.app-table-wrap {
+  overflow: hidden;
+  background: rgb(255 255 255 / 90%);
+  border: 1px solid #e6eaf1;
+  border-radius: 1rem;
+}
+
+.app-card {
+  padding: 1.5rem;
+}
+
+.app-table {
+  margin-bottom: 0;
+}
+
+.app-table thead {
+  color: white;
+  background: #172033;
+}
+
+.app-table th {
+  padding: 1rem 1.25rem;
+  font-size: .75rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.app-table td {
+  padding: 1rem 1.25rem;
+  border-color: #edf0f5;
+}
+
+.status-badge {
+  padding: .5rem .7rem;
+  font-weight: 700;
+}
+
+.status-yes {
+  color: #176b4d;
+  background: #d6f5e7;
+}
+
+.status-no {
+  color: #667085;
+  background: #edf0f5;
+}
+
+.btn-primary {
+  --bs-btn-bg: #f5a623;
+  --bs-btn-border-color: #f5a623;
+  --bs-btn-hover-bg: #dd8d0b;
+  --bs-btn-hover-border-color: #dd8d0b;
+  --bs-btn-color: #172033;
+  --bs-btn-hover-color: #172033;
+  font-weight: 700;
+}
+
+.app-footer {
+  background: #172033;
+}
